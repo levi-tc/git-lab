@@ -1,3 +1,5 @@
 This is a very important feature of this project!
 
+This feature was approved by the big boss.
+
 This feature will not be changed in the near future!
