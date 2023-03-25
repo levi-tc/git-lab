@@ -1,5 +1,5 @@
 main: main.c
-	gcc main.c -o main
+	gcc $^ -o $@
 
 clean:
 	rm main main.o
