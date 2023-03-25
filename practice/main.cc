@@ -3,6 +3,11 @@
 
 using namespace std;
 
+int get_random()
+{
+    return rand() % 200;
+}
+
 int main()
 {
     int n;
@@ -14,9 +19,7 @@ int main()
 
     for (int i = 0; i <= 5; i++)
     {
-        int rand_n = rand() % 200;
-
-        if (rand_n == 150)
+        if (get_random() == 150)
             n += 1;
         else
         {
