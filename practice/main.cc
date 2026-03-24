@@ -72,7 +72,7 @@ int main()
 
     vector<fp> randoms = { get_random_getrandom, get_random_dev_urandom, get_random_rdrand, get_random_std };
 
-    for (int i = 0; i <= 5; i++)
+    for (int i = 0; i < 5; i++)
     {
         if (get_random(randoms[i % 4]) == 150)
         {
